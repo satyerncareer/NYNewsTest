@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0822A6E420A462A100ACBBFF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0822A6E320A4629B00ACBBFF /* README.md */; };
 		089B742D20A3C7C50095711C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089B742B20A3C7C50095711C /* Main.storyboard */; };
 		089B742F20A3C7C90095711C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089B742E20A3C7C90095711C /* Assets.xcassets */; };
 		089B743220A3C7C90095711C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089B743020A3C7C90095711C /* LaunchScreen.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0822A6E320A4629B00ACBBFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		089B742420A3C7C50095711C /* NYTIMES_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTIMES_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		089B742C20A3C7C50095711C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		089B742E20A3C7C90095711C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		089B742620A3C7C50095711C /* NYTIMES_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				0822A6E320A4629B00ACBBFF /* README.md */,
 				089B744B20A3CABF0095711C /* Network */,
 				089B744D20A3CABF0095711C /* Application */,
 				089B744C20A3CABF0095711C /* helpers */,
@@ -300,6 +303,7 @@
 			files = (
 				089B743220A3C7C90095711C /* LaunchScreen.storyboard in Resources */,
 				089B742F20A3C7C90095711C /* Assets.xcassets in Resources */,
+				0822A6E420A462A100ACBBFF /* README.md in Resources */,
 				089B746020A43A080095711C /* newsCell.xib in Resources */,
 				089B742D20A3C7C50095711C /* Main.storyboard in Resources */,
 			);
